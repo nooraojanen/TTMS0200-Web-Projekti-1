@@ -1,0 +1,46 @@
+#voitto {
+    height: 400px;
+    width: 760px;
+    background-color: rgba(161,129,72, 0.95);
+    border: 2px solid black;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: cornsilk;
+}
+p {
+    width: 350px;
+    font-size: 35px;
+    float: left;
+    margin-left: 30px;
+    color: cornsilk;
+    margin-top: 10px;
+}
+#roskis {
+    float: left;
+    margin-left: 170px;
+    margin-top: 20px;
+    height: 150px;
+}
+#etusivulle {
+    position: absolute;
+    width: 180px;
+    top: 320px;
+    left: 200px;
+    cursor: pointer;
+}
+#uudestaan {
+    position: absolute;
+    width: 180px;
+    top: 320px;
+    left: 400px;
+    cursor: pointer;
+}
+.dropShadow {
+    box-shadow: 0px 0px 2px 2px white;
+    width: 200px;
+}
+.nappula:hover {
+    transform: scale(1.2) perspective(1px);
+}

@@ -1,0 +1,77 @@
+main {
+    background-image: url(grafiikka/katos.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.roskis{
+    height: 150px;
+    width: auto;
+    z-index: 1;
+}
+
+#roskis1{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 340px;
+}
+
+#roskis2{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 340px;
+}
+
+
+#roskis3{
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 340px;
+}
+
+#roskis4{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 340px;
+}
+
+#infobutton {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#stopbutton {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 1080px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.draggable {
+    height: 80px;
+    margin-top: 620px;
+    margin-left: 50px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+#content {
+    margin-left: 220px;
+    margin-top: 110px;
+    z-index: 3 !important;
+    position: fixed;
+}
+.esc:hover {
+    transform: scale(1.2) perspective(1px);
+}
