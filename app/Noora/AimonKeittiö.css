@@ -1,0 +1,182 @@
+.container {
+    position: relative;
+    text-align: center;
+    top: 70px;
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-size: 100%;
+}
+
+#polaroid {
+    position: absolute;
+    top: 395px;
+    left: 990px;
+    animation: shake 90s;
+    animation-iteration-count: infinite;
+}
+
+#polaroid:hover {
+    position: absolute;
+    animation: no-animate;
+    top: 395px;
+    left: 990px;
+    transform: scale(1.1);
+}
+
+#roskis {
+    position: absolute;
+    top: 58%;
+    left: 20px;
+    animation: shake 80s;
+    animation-iteration-count: infinite;
+}
+
+#roskis:hover {
+    position: absolute;
+    top: 58%;
+    left: 20px;
+    transform: scale(1.1);
+    animation: no-animate;
+}
+
+#tv {
+    position: absolute;
+    top: 13px;
+    left: 920px;
+    width: 200px;
+    height: 180px;
+    animation: shake 120s;
+    animation-iteration-count: infinite;
+}
+
+#tv:hover {
+    position: absolute;
+    top: 13px;
+    left: 920px;
+    width: 200px;
+    height: 180px;
+    transform: scale(1.1);
+    animation: no-animate;
+}
+
+#kuplat {
+    position: absolute;
+    top: 329px;
+    left: 492px;
+    z-index: 10;
+}
+
+#kuplat:hover {
+    position: absolute;
+    top: 329px;
+    left: 492px;
+    transform: scale(1.05);
+    animation: no-animate;
+}
+
+#b1 {
+    position: absolute;
+    top: -14px;
+    left: -39px;
+    height: 95px;
+}
+
+#b2 {
+    position: absolute;
+    top: -11.6px;
+    left: 1095px;
+    height: 95px;
+}
+
+#b1:hover {
+    position: absolute;
+    top: -14px;
+    left: -39px;
+    height: 95px;
+    transform: scale(1.1);
+}
+
+#b2:hover {
+    position: absolute;
+    top: -11.6px;
+    left: 1095px;
+    height: 95px;
+    transform: scale(1.1);
+}
+
+body {
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+    height: 50px;
+    z-index: 3;
+}
+
+#kori {
+    position: absolute;
+    top: 240px;
+    left: 15%;
+    height: 160px;
+    animation: shake 50s;
+  animation-iteration-count: infinite;
+}
+
+#kori:hover {
+    position: absolute;
+    top: 240px;
+    left: 15%;
+    height: 160px;
+    transform: scale(1.1);
+    animation: no-animate;
+}
+
+#apina {
+    position: absolute;
+    left: 280px;
+    top: 500px;
+}
+
+#hanta {
+    position: absolute;
+    left: 230px;
+    top: 630px;
+    animation: shake 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#lautaset {
+    position: absolute;
+    left: 580px;
+    top: 240px;
+}
+
+#puhekupla {
+    position: absolute;
+    left: 510px;
+    top: 614px;
+}
+
+#sulje {
+    position: absolute;
+    left: 930px;
+    top: 720px;
+}

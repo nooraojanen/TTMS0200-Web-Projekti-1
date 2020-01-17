@@ -1,0 +1,137 @@
+.container {
+    position: relative;
+    text-align: center;
+    top: 70px;
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-size: 100%;
+}
+
+#back {
+    position: absolute;
+    top: 8px;
+    left: 75px;
+    width: 1050px;
+    height: 780px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#no {
+    position: absolute;
+    top: 80px;
+    left: 35px;
+}
+
+#ma {
+    position: absolute;
+    top: 74px;
+    left: 287px;
+}
+
+#la {
+    position: absolute;
+    top: 81px;
+    left: 530px;
+}
+
+#sa {
+    position: absolute;
+    top: 86px;
+    left: 785px;
+}
+
+#no:hover {
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    transform: scale(1.1);
+}
+
+#ma:hover {
+    position: absolute;
+    top: 74px;
+    left: 287px;
+    transform: scale(1.1);
+}
+
+#la:hover {
+    position: absolute;
+    top: 81px;
+    left: 530px;
+    transform: scale(1.1);
+}
+
+#sa:hover {
+    position: absolute;
+    top: 86px;
+    left: 785px;transform: scale(1.1);
+}
+
+#b1 {
+    position: absolute;
+    top: -14px;
+    left: -39px;
+    height: 95px;
+}
+
+#b2 {
+    position: absolute;
+    top: -11.6px;
+    left: 1095px;
+    height: 95px;
+}
+
+#b1:hover {
+    position: absolute;
+    top: -14px;
+    left: -39px;
+    height: 95px;
+    transform: scale(1.1);
+}
+
+#b2:hover {
+    position: absolute;
+    top: -11.6px;
+    left: 1095px;
+    height: 95px;
+    transform: scale(1.1);
+}
+
+#textbox {
+    position: absolute;
+    background-color: white;
+    top: 450px;
+    left: 200px;
+    border: 2px solid black;
+    height: 310px;
+    width: 800px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#esittelyteksti {
+    position: absolute;
+    top: 6px;
+    left: 360px;
+}
+
+img {
+    border: none;
+    outline: none;
+}
+
+h1 {
+    font: 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 17px;
+}
+
