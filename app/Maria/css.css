@@ -1,0 +1,167 @@
+@charset="utf-8";
+
+
+main {
+    background-image: url(grafiikka/AimonKeittio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1200px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#infoButton {
+    width: 50px;
+    height: 50px;
+    float:left;
+    padding: 0;
+    top: 4px;
+    margin: 5px;
+}
+
+#stopButton {
+    width: 50px;
+    height: 50px;
+    float:right;
+    padding: 0;
+    top: 4px; 
+    margin: 5px;
+}
+
+#apina1 {
+    bottom: 120px;
+    position: absolute;
+}
+
+#apina2 {
+    position: absolute;
+    bottom: 130px;
+}
+
+#apina3 {
+    position: absolute;
+    bottom: 130px;
+}
+
+#star {
+    position: absolute;
+    top:652px;
+    left: 472px;
+}
+
+#hedelmaKori{
+      
+    height: 165px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+#kori {
+    
+    height: 410px;
+    position: relative;
+    top: 110px;
+    left: 410px;
+    
+}
+
+#banaani {
+      
+    height: 130px;
+    position: absolute;
+
+}
+
+#meloni {
+      
+    height: 200px;
+    position: absolute;
+
+}
+
+#appelsiini {
+     
+    height: 130px;
+    position: absolute;
+
+}
+
+#paaryna {
+     
+    height: 150px;
+    position: absolute;
+
+}
+
+#sitruuna {
+      
+    height: 120px;
+    position: absolute;
+
+}
+
+#kiwi {
+     
+    height: 130px;
+    position: absolute;
+
+}
+
+#rypale {
+    
+    height: 150px;
+    position: absolute;
+
+}
+
+#omena {
+     
+    height: 150px;
+    position: absolute;
+
+}
+
+.draggable{
+    cursor:pointer;
+    
+}
+
+.hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+#infoButton:hover, #stopButton:hover{
+    transform: scale(1.05) perspective(1px);
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+
+.kasva
+{
+    transition: transform 3s;
+    transform: scale(2.5);
+}
+
+.show
+{
+    visibility:visible;
+}
+
+.hide
+{
+   visibility:hidden; 
+}
+
+#content {
+   	margin-left: 220px;
+    margin-top: 125px;
+    z-index: 3 !important;
+    position: absolute;
+}
+
+
