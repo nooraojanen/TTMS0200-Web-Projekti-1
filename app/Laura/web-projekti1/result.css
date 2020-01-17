@@ -1,0 +1,49 @@
+#voitto {
+    height: 400px;
+    width: 760px;
+    background-color: #E6E6FA;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#otsikko {
+    position: relative;
+    top: -95px;
+    left: -115px;
+    width: 950px;
+    
+}
+#asia {
+    position: relative;
+    top:-490px;
+    width: 500px;
+    float: left;
+}
+#lautanen {
+    position: absolute;
+    top: 120px;
+    left: 475px;
+    /*margin-left: 70px;
+    margin-top: 20px;*/
+    height: 150px;
+}
+#etusivulle {
+    position: absolute;
+    width: 180px;
+    top: 320px;
+    left: 200px;
+    cursor: pointer;
+}
+#uudestaan {
+    position: absolute;
+    width: 180px;
+    top: 320px;
+    left: 400px;
+    cursor: pointer;
+}
+.dropShadow {
+    box-shadow: 0px 0px 2px 2px white;
+    width: 200px;
+}
+.nappula:hover {
+    transform: scale(1.2) perspective(1px);
+}

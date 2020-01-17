@@ -1,0 +1,150 @@
+body {
+    user-select: none;
+}
+/*.kohde {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+#tahra1 {
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+*/
+body {
+    color: beige;
+}
+#poistu {
+    width: 50px;
+    height: 50px;
+    position: inherit;
+    top: 3px;
+    right : 3px;
+}
+#toisto {
+    width: 50px;
+    height: 50px;
+    position: inherit;
+    top: 3px;
+    left : 3px;
+}
+#keittiotausta {
+    width: 1900px;
+    height: 1500px;
+    left : -550px;
+    top: -80px;
+    position: inherit;
+    z-index: -2;
+    
+    
+}
+.taustakuva {
+    position: absolute;
+    border-style: hidden;
+    height: 700px;
+    width: 1100px;
+    overflow: hidden;
+    
+}
+.taka-ala {
+    
+    position: absolute;
+    border-style: hidden;
+    height: 681px;
+    width: 1100px;
+    overflow: hidden;
+}
+.taustakuvareunamus {
+    left: 360px;
+    position: absolute;
+    border-style: solid;
+    height: 800px;
+    width: 1200px;
+    border-color: black;
+    top: 80px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+
+.kohde {
+    position:inherit;
+    top: 1500px;
+    left: 310px;
+}
+.esine {
+    position: inherit;
+    top: 1500px;
+    left: 360px;
+}
+#taustakuplia{
+    position:absolute;
+    top: 540px;
+    opacity: 0;
+    left: 200px;
+    z-index: -1;
+}
+#harja2 {
+    height: 110px;
+    width: 110px;
+    position: fixed;
+    opacity: 0;
+    top: 675px;
+    left: 530px;
+    
+}
+
+#harja1 {
+    height: 110px;
+    width: 110px;
+    position: fixed;
+    opacity: 0;
+    top: 675px;
+    left: 530px;
+}
+#tekstitp {
+    position: absolute;
+    left: -60px;
+    top: -150px;
+    opacity: 0;
+}
+#content {
+    left: 125px;
+    top: 70px;
+    margin-left: 480px;
+    margin-top: 190px;
+    z-index: 3 !important;
+    position: fixed;
+}
+#lautanen {
+    position: absolute;
+    top: 120px;
+    left: 475px;
+    /*margin-left: 70px;
+    margin-top: 20px;*/
+    height: 150px;
+}
+#apina{
+    position: absolute;
+    z-index: -2;
+    top: -70px;
+    left: -770px;
+    width: 1900px;
+}
+#animaatio{
+    position: absolute;
+    z-index: -1;
+    top: -468px;
+    left: -1392px;
+    width: 1900px;
+    opacity: 0;
+}
+#poistu:hover{
+    transform: scale(1.01);
+    box-shadow: 7px 7px 7px 7px #000;
+}
+#toisto:hover{
+    transform: scale(1.01);
+    box-shadow: 7px 7px 7px 7px #000;
+}
